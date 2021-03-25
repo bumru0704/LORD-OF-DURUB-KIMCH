@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color:black;
+    list-style:none;
+    text-decoration: none;
+    border-collapse: collapse;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.background{
+    background-image:url("back.jpg");
+    width:cover;
+    height:700px;
+}
+.high_bar{
+    display: flex;
+    
+}
+input{
+    height:40px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top:17px;
+}
+.menu{
+    display:flex;
+    margin-left: 84px;
+    justify-content: flex-end;
+    margin-top:10px;
+}
+.menu > ol{
+    margin-left: 250px;
+    font-size:35px;
+}
+input::placeholder{
+    font-size: 30px;
+}
+.gay{
+    width:100%;
+    margin: 50px auto 231px auto;
+    text-align: center;
+    position:relative;
+    top: 200px;
+    font-size:20px;
+}
+#sub{
+    font-size:14px;
+}
+.Kimch{
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.Kimch > h1{
+    font-size: 44px;
+}
+#number_one , #number_two , .Im_fuking_tired{
+    font-size:24px;
+    padding-top:40px;
+    padding-left: 50px;
+}
+#sonjil , #bboolim{
+    padding-top:40px;
+}
+#number_two{
+    text-align: right;
+    padding-top: 50px;
+    border-top: black solid 2px;
+}
+#bboolim{
+    text-align: right;
+}
+footer{
+    background-color:#25292F;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.copyright{
+    color:#828C96;
+    padding-left:40px;
+    font-size:15px;
+}
+.Im_fuking_tired{
+    border-top: black solid 2px;
+    margin-top:40px;
+}
